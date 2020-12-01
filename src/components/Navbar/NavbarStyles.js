@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
-import {HiOutlineMenuAlt3} from 'react-icons/hi'
 
 export const Nav = styled.nav`
 background: #000;
 height: 80px;
-/* margin-top: -80px; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -35,16 +33,22 @@ max-width: 1400px;
 export const NavLogo = styled(LinkR)`
 text-decoration: none;
 color: #fff;
-/* justify-self: flex-start; */
 display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight: 800;
-font-size: 2.4rem;
+font-size: 2.6rem;
+transition: all .3s ease;
+
+&:hover{
+  transform: scale(1.1) translateX(.5rem) translateY(.3rem);
+  color: #01bf71;
+}
 `;
 
-export const NavIcon = styled(HiOutlineMenuAlt3)`
+export const NavIcon = styled.div`
  display: none;
+
 
  @media only screen and (max-width: 1000px){
   display: block;
@@ -54,8 +58,18 @@ export const NavIcon = styled(HiOutlineMenuAlt3)`
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-100%, 60%);
+  transform: translate(-100%, 50%);
+  
  }
+`;
+
+export const NavWrapper = styled.div`
+display: flex;
+justify-content: space-between;
+@media only screen and (max-width: 1000px){
+  display: flex;
+  flex-direction: column;
+}
 `;
 
 export const NavMenu = styled.ul`
@@ -65,8 +79,16 @@ list-style: none;
 text-align: center;
 margin-right: -22px;
 
-@media only screen and (max-width: 768px){
-  display: none;
+@media only screen and (max-width: 1000px){
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: ${({click}) => click ? '0': '-100%'};
+  transition: all .5s ease;
 }
 `;
 export const NavItem = styled.li`
@@ -80,18 +102,43 @@ text-decoration: none;
 padding: 0 1.6rem;
 height: 100%;
 cursor: pointer;
+transition: all .3s ease;
+
+&:hover,
+&:active{
+  color: #01bf71;
+}
 
 &:active{
   border-bottom: 3px solid #01bf71;
+}
+
+@media only screen and (max-width: 1000px){
+  font-size: 2.5rem;
+
+  &:hover,
+  &:active{
+  transform: scale(1.06);
+  border-bottom: 3px solid #01bf71;
+  
+  }
+}
+
+@media only screen and (max-width: 768px){
+  font-size: 1.6rem;
 }
 `;
 
 export const NavBtn = styled.div`
 display: flex;
 align-items: center;
+margin-left: 50px;
 
-@media only screen and (max-width: 768px){
-  display: none;
+@media only screen and (max-width: 1000px){
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 50px;
 }
 `;
 export const NavBtnLink = styled(LinkR)`
