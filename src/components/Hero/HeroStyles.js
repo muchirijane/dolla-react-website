@@ -21,12 +21,11 @@ z-index: 1;
   background: linear-gradient( 
   100deg, 
   rgba(0,0,0,0.2) 0%, 
-  rgba(0,0,0,0.6) 100%
-  ),
+  rgba(0,0,0,0.6) 100%),
   linear-gradient(
   100deg, 
   rgba(0,0,0,0.2) 0%, 
-  trasparent 100%
+  transparent 100%
   );
   z-index: 2;
    
@@ -47,7 +46,7 @@ width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-background: #232a34;
+/* background: #232a34; */
 `;
 
 export const HeroContent = styled.div`
@@ -64,7 +63,6 @@ export const HeroTitle = styled.h1`
 font-size: 4.8rem;
 text-align: center;
 color: #fff;
-box-shadow: 0 5px 10px rgba(0,0,0, .2);
 
 @media only screen and (max-width: 768px){
   font-size: 4rem;
@@ -81,7 +79,6 @@ color: #fff;
 font-size: 2.4rem;
 text-align: center;
 max-width: 600px;
-box-shadow: 0 5px 10px rgba(0,0,0, .2);
 
 @media only screen and (max-width: 768px){
   font-size: 2rem;
