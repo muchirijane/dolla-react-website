@@ -1,9 +1,9 @@
-
+const { Signin } = require("../components")
 
 const SignUpPage = () => {
   return (
     <div>
-      <h1>Sign in</h1>
+     <Signin/>
       
     </div>
   )

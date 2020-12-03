@@ -1,7 +1,6 @@
 import Icon1 from '../../assets/images/expense.svg'
 import Icon2 from '../../assets/images/office.svg'
 import Icon3 from '../../assets/images/benefites.svg'
-import Icon4 from '../../assets/images/savings.svg'
 import {
   ServicesContainer,
   ServicesH1,
