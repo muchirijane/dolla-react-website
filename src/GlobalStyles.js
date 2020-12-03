@@ -18,6 +18,19 @@ const GlobalStyle = createGlobalStyle`
 html{
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (min-width: 1400px) {
+    font-size: 75%;
+  }
+  @media only screen and (min-width: 1600px) {
+    font-size: 85%;
+  }
+  @media only screen and (min-width: 1900px) {
+    font-size: 95%;
+  }
+  @media only screen and (min-width: 2200px) {
+    font-size: 100%;
+  }
 }
 
 body{

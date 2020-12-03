@@ -30,7 +30,7 @@ const Hero = () => {
             payment.
           </HeroText>
           <HeroBtn>
-            <Button primary to="sign-up" onMouseEnter={onHover} onMouseLeave={onHover}>
+            <Button primary dark to="sign-up" onMouseEnter={onHover} onMouseLeave={onHover}>
               Get started {hover ? <ArrowForward/> : <ArrowRight/>}
             </Button>
           </HeroBtn>

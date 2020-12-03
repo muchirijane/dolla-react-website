@@ -38,11 +38,11 @@ const Navbar = () => {
                   <NavLink onClick={closeMenu} to="services">Services</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={closeMenu} to="sign-up">Sign Up</NavLink>
+                  <NavLink onClick={closeMenu} to="signup">Sign Up</NavLink>
                 </NavItem>
               </NavWrapper>
                 <NavBtn>
-                  <NavBtnLink onClick={closeMenu} to="sign-up"> Explore Now</NavBtnLink>
+                  <NavBtnLink onClick={closeMenu} to="signin"> Explore Now</NavBtnLink>
                 </NavBtn>
             </NavMenu>
     

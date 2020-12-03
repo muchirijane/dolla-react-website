@@ -30,7 +30,8 @@ margin: 0 auto;display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
 justify-content: center;
-grid-gap: 16px;padding: 0 50px;
+grid-gap: 2.5rem;
+padding: 0 50px;
 
 @media only screen and (max-width:1000px) {
   grid-template-columns: 1fr 1fr;
@@ -50,11 +51,15 @@ border-radius: 10px;
 max-height: 34rem;
 padding: 3.8rem;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-transition: all .2s ease;
+transition: all .5s ease;
 
 &:hover{
-  transform: scale(1.02);
+  transform: scale(1.1);
   cursor: pointer;
+
+  @media only screen and (max-width:768px){
+    transform: scale(1.02);
+  }
 }
 `;
 export const ServicesIcon = styled.img`
