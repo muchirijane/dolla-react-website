@@ -1,3 +1,5 @@
+
+import {animateScroll as scroll} from 'react-scroll'
 import {FaFacebook, FaInstagram, FaYoutube, FaTwitter} from 'react-icons/fa'
 import {
   FooterContainer,
@@ -17,6 +19,13 @@ import {
 } from './FooterStyles'
 
 const Footer = () => {
+
+  const toogleTop = () => {
+    scroll.scrollToTop();
+  }
+
+ 
+
   return (
     <div>
       <FooterContainer>
@@ -59,7 +68,7 @@ const Footer = () => {
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo>dolla</SocialLogo>
+              <SocialLogo onClick={toogleTop}>dolla</SocialLogo>
                 <Copyright>dolla &copy; {new Date().getFullYear()} All rights reserved</Copyright>
                 <SocialIcons>
                   <SocialIconLink href="/" target="_blank" noreferrer aria-label="Facebook">
