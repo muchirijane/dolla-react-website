@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.js": "/dolla-react-website/static/js/main.0317011b.chunk.js",
-    "main.js.map": "/dolla-react-website/static/js/main.0317011b.chunk.js.map",
+    "main.js": "/dolla-react-website/static/js/main.de1db7ff.chunk.js",
+    "main.js.map": "/dolla-react-website/static/js/main.de1db7ff.chunk.js.map",
     "runtime-main.js": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js",
     "runtime-main.js.map": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js.map",
-    "static/js/2.66a48afc.chunk.js": "/dolla-react-website/static/js/2.66a48afc.chunk.js",
-    "static/js/2.66a48afc.chunk.js.map": "/dolla-react-website/static/js/2.66a48afc.chunk.js.map",
+    "static/js/2.3a316069.chunk.js": "/dolla-react-website/static/js/2.3a316069.chunk.js",
+    "static/js/2.3a316069.chunk.js.map": "/dolla-react-website/static/js/2.3a316069.chunk.js.map",
     "index.html": "/dolla-react-website/index.html",
-    "static/js/2.66a48afc.chunk.js.LICENSE.txt": "/dolla-react-website/static/js/2.66a48afc.chunk.js.LICENSE.txt",
-    "static/media/benefites.svg": "/dolla-react-website/static/media/benefites.79960a98.svg",
+    "static/js/2.3a316069.chunk.js.LICENSE.txt": "/dolla-react-website/static/js/2.3a316069.chunk.js.LICENSE.txt",
+    "static/media/benefites.79960a98.svg": "/dolla-react-website/static/media/benefites.79960a98.svg",
     "static/media/car.svg": "/dolla-react-website/static/media/car.198c8835.svg",
+    "static/media/expense.75c17242.svg": "/dolla-react-website/static/media/expense.75c17242.svg",
+    "static/media/office.9bb2a7fa.svg": "/dolla-react-website/static/media/office.9bb2a7fa.svg",
+    "static/media/profile.svg": "/dolla-react-website/static/media/profile.798e67a4.svg",
     "static/media/savings.svg": "/dolla-react-website/static/media/savings.5f11287c.svg",
     "static/media/video.7d1ea6a9.mp4": "/dolla-react-website/static/media/video.7d1ea6a9.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.5b9e49bd.js",
-    "static/js/2.66a48afc.chunk.js",
-    "static/js/main.0317011b.chunk.js"
+    "static/js/2.3a316069.chunk.js",
+    "static/js/main.de1db7ff.chunk.js"
   ]
 }
