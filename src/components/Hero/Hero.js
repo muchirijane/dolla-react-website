@@ -19,7 +19,7 @@ const Hero = () => {
   const onHover = ()=> setHover(!hover);
   return (
     <div>
-      <HeroContainer>
+      <HeroContainer id="home">
         <HeroBg>
           <VideoBg src={video} autoPlay muted playsInline loop/>
         </HeroBg>

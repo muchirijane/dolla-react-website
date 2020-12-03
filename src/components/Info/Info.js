@@ -48,7 +48,7 @@ const Info = ({
                   spy={true}
                   exact="true"
                   offset={-80}
-                  to="home"
+                  to="/"
                   >{buttonLabel}</Button>
                </InfoBtn>
             </Column1>
