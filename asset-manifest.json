@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/dolla-react-website/static/js/main.de1db7ff.chunk.js",
-    "main.js.map": "/dolla-react-website/static/js/main.de1db7ff.chunk.js.map",
+    "main.js": "/dolla-react-website/static/js/main.a39ea5de.chunk.js",
+    "main.js.map": "/dolla-react-website/static/js/main.a39ea5de.chunk.js.map",
     "runtime-main.js": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js",
     "runtime-main.js.map": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js.map",
-    "static/js/2.3a316069.chunk.js": "/dolla-react-website/static/js/2.3a316069.chunk.js",
-    "static/js/2.3a316069.chunk.js.map": "/dolla-react-website/static/js/2.3a316069.chunk.js.map",
+    "static/js/2.b3311cb1.chunk.js": "/dolla-react-website/static/js/2.b3311cb1.chunk.js",
+    "static/js/2.b3311cb1.chunk.js.map": "/dolla-react-website/static/js/2.b3311cb1.chunk.js.map",
     "index.html": "/dolla-react-website/index.html",
-    "static/js/2.3a316069.chunk.js.LICENSE.txt": "/dolla-react-website/static/js/2.3a316069.chunk.js.LICENSE.txt",
+    "static/js/2.b3311cb1.chunk.js.LICENSE.txt": "/dolla-react-website/static/js/2.b3311cb1.chunk.js.LICENSE.txt",
     "static/media/benefites.79960a98.svg": "/dolla-react-website/static/media/benefites.79960a98.svg",
     "static/media/car.svg": "/dolla-react-website/static/media/car.198c8835.svg",
     "static/media/expense.75c17242.svg": "/dolla-react-website/static/media/expense.75c17242.svg",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5b9e49bd.js",
-    "static/js/2.3a316069.chunk.js",
-    "static/js/main.de1db7ff.chunk.js"
+    "static/js/2.b3311cb1.chunk.js",
+    "static/js/main.a39ea5de.chunk.js"
   ]
 }
