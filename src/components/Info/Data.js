@@ -40,7 +40,7 @@ export const homeObjThree ={
   description: 'Get everything set up and ready in 10 minutes. All you need to do is add your information and you\'re ready to go ',
   buttonLabel: 'Start Now',
   imgStart: false,
-  img: require('../../assets/images/benefites.svg').default,
+  img: require('../../assets/images/profile.svg').default,
   alt: 'benefites',
   dark: false,
   primary: false,
