@@ -52,6 +52,7 @@ max-height: 34rem;
 padding: 3.8rem;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 transition: all .5s ease;
+line-height: 1.4;
 
 &:hover{
   transform: scale(1.1);
@@ -61,6 +62,10 @@ transition: all .5s ease;
     transform: scale(1.02);
   }
 }
+
+/* @media only screen and (max-width:1900px){
+    max-height: 50rem;
+  } */
 `;
 export const ServicesIcon = styled.img`
 height: 16rem;
@@ -70,7 +75,9 @@ margin: 0 auto;
 `;
 export const ServicesH2 = styled.h2`
 margin-bottom: 1rem;
+font-size: 1.8rem;
 `;
 export const ServicesP = styled.p`
 text-align: center;
+font-size: 1.5rem;
 `;

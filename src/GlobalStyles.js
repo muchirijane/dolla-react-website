@@ -34,10 +34,10 @@ html{
 }
 
 body{
-  /* font-family: 'Encode Sans Expanded', sans-serif; */
   font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 //scrollbar

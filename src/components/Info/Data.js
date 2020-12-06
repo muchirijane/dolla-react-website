@@ -37,7 +37,7 @@ export const homeObjThree ={
   lightTextDesc: false,
   topLine: 'Join our Team',
   heading: 'Creating an account is extremely easy', 
-  description: 'Get everything set up and ready in 10 minutes. All you need to do is add your information and you\'re ready to go ',
+  description: 'Get everything set up and ready in 10 minutes. All you need to do is add your information and you\'re ready to go. ',
   buttonLabel: 'Start Now',
   imgStart: false,
   img: require('../../assets/images/profile.svg').default,

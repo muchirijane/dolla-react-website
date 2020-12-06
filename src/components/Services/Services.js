@@ -29,7 +29,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3}/>
-            <ServicesH2>Preminum Benefits</ServicesH2>
+            <ServicesH2>Benefits</ServicesH2>
             <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
           </ServicesCard>
           

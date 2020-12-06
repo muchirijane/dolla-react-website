@@ -69,7 +69,7 @@ export const SubTitle = styled.h4`
 max-width: 600px;
 margin-bottom: 35px;
 font-size: 1.8rem;
-line-height: 24px;
+/* line-height: 1.6; */
 color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `;
 export const InfoBtn = styled.div`

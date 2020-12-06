@@ -88,9 +88,21 @@ font-size: 2.4rem;
 align-items: center;
 margin-bottom: 1.6rem;
 font-weight: bold;
+transition: all .3s ease;
+
+&:hover {
+  color: #01bf71;
+  transform: scale(1.05) translateX(.5rem) translateY(.5rem);
+}
 `;
 export const Copyright = styled.h4`
 margin-bottom: 1.6rem;
+transition: all .3s ease;
+
+&:hover {
+  color: #01bf71;
+  transform: scale(1.05) translateX(.5rem) translateY(.5rem);
+}
 `;
 export const SocialIcons = styled.div`
 display: flex;
@@ -105,6 +117,6 @@ transition: all .3s ease;
 
 &:hover {
   color: #01bf71;
-  transform: scale(1.05);
+  transform: scale(1.05) translateX(.5rem) translateY(.5rem);
 }
 `;
