@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/dolla-react-website/static/js/main.b24d4d21.chunk.js",
-    "main.js.map": "/dolla-react-website/static/js/main.b24d4d21.chunk.js.map",
+    "main.js": "/dolla-react-website/static/js/main.dffbf5d8.chunk.js",
+    "main.js.map": "/dolla-react-website/static/js/main.dffbf5d8.chunk.js.map",
     "runtime-main.js": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js",
     "runtime-main.js.map": "/dolla-react-website/static/js/runtime-main.5b9e49bd.js.map",
     "static/js/2.eabd9210.chunk.js": "/dolla-react-website/static/js/2.eabd9210.chunk.js",
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.5b9e49bd.js",
     "static/js/2.eabd9210.chunk.js",
-    "static/js/main.b24d4d21.chunk.js"
+    "static/js/main.dffbf5d8.chunk.js"
   ]
 }
