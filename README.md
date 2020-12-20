@@ -34,6 +34,9 @@ npm run build
 - [Styled Components](https://www.styled-components.com)
 - [React Scroll](https://github.com/fisshy/react-scroll)
 
+#### Resources
+[Brian Design React Videos](https://www.youtube.com/watch?v=Nl54MJDR2p8)
+
 ## Authors
 
 - **Jane Tracy** - [TracyCss on Dev.to](https://dev.to/tracycss)
